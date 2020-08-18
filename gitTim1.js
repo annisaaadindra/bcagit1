@@ -35,3 +35,14 @@ function greedy_shortest(graph, source, dest)//parameter tdd pilihan rute, lokas
 }
 
 greedy_shortest(rute, 'A', 'H');
+
+//ADD BY YUNDA
+var nilai = [5,7,1,6,8,10,22,13,7,8];
+var max_ = Math.max.apply(Math, nilai);
+var min_ = Math.min.apply(Math, nilai);
+
+nilai.sort();
+console.log(nilai);
+console.log("Nilai Terbesar");
+console.log(max_);
+console.log(min_);
